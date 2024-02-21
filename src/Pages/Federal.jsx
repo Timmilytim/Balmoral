@@ -6,6 +6,7 @@ import Image4 from '../assets/federal/4.jpg'
 import Image5 from '../assets/federal/5.jpg'
 import Image6 from '../assets/federal/6.jpg'
 import Image7 from '../assets/federal/7.jpg'
+import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
 import '../App.css';
 
 function Federal() {
@@ -25,7 +26,12 @@ function Federal() {
 
     <h1>Balmoral Convention Center</h1>
     <h3>6-8 Ahmadu Bello Way, Federal Palace Hotel, VI, Lagos State.</h3>
-    <p><i>Ikpati Samuel Christophe</i></p>
+    <div className='icons'>
+      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+    </div>
+
     <div>
       <p className='text'>Nestled in the heart of Victoria Island, our Balmoral Convention Centre is an epitome of sophistication. With its expansive spaces and state-of-the-art facilities, it's an ideal choice for large-scale conferences, exhibitions, and grand celebrations. The iconic skyline serves as a backdrop, adding an extra touch of grandeur to your event.
       The Balmoral Convention Center, Federal Palace Hotel, Victoria Island is located on the premises of the Federal Palace Hotel, a 5 star luxury hotel that offers state of the art facility and comforts of unimaginable proportions.

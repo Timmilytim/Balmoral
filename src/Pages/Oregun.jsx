@@ -3,6 +3,7 @@ import Image1 from '../assets/oregun/1.jpg'
 import Image2 from '../assets/oregun/2.jpg'
 import Image3 from '../assets/oregun/3.jpg'
 import Image4 from '../assets/oregun/4.jpg'
+import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
 import '../App.css';
 
 function Oregun() {
@@ -19,7 +20,11 @@ function Oregun() {
     <h1>The Balmoral Hall</h1>
     <h3>98, Kudirat Abiola Way, Oregun, ikeja, Lagos State.</h3>
     <p>3,000 sitting capacity</p>
-    <p><i>Ikpati Samuel Christophe</i></p>
+    <div className='icons'>
+      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+    </div>
 
     <div>
       <p className='text'>The Balmoral Hall is a state of the art event centre located at the popular Kudirat Abiola Way, Oregun, Ikeja, Lagos. The Balmoral Hall provides an excellent environment for all kinds of event ranging from corporate event, weddings, engagement ceremonies, Burial ceremonies, Birthday ceremonies etc. The facilities on ground and the professional staffs, well trained and diverse in event planning makes The Balmoral Oregun event centre stand out in its environs.</p>

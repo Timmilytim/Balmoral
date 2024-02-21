@@ -7,6 +7,7 @@ import Image5 from '../assets/sheraton/7.jpg'
 import Image6 from '../assets/sheraton/6.jpg'
 import Image7 from '../assets/sheraton/5.jpg'
 import Image8 from '../assets/sheraton/8.jpg'
+import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
 import '../App.css';
 
 function Sheraton() {
@@ -27,7 +28,11 @@ function Sheraton() {
     <h1>Balmoral Convention Center</h1>
     <h3>30 Mobolaji Bank Anthony way, Sheraton Lagos Hotel, ikeja. Lagos State</h3>
     <p>3,000 sitting capacity</p>
-    <p><i>Ikpati Samuel Christophe</i></p>
+    <div className='icons'>
+      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+    </div>
  
     <div>
       <p className='text'>Balmoral Venues, a subsidiary of Balmoral Group, specializes in the management of event venue rentals. Balmoral Venues boasts an extensive network of strategically located event centers in Lagos and a mobile division that can provide venues at any location of choice. Our unique and spacious event center, situated at the Sheraton in Ikeja, Lagos, sets us apart as one of the largest and most sought-after venue providers in Nigeria and West Africa. Our team of dedicated professionals ensure a seamless event management experience, regardless of the location. As a premium venue, the Balmoral Convention Center With multiple locations in Lagos and expand to other cities like Abuja and outside Africa, we are the largest venue providers in Nigeria and West Africa.</p>

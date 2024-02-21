@@ -1,33 +1,20 @@
 import React from 'react'
-import Image1 from '../assets/villa/1.jpg'
-import Image3 from '../assets/villa/3.jpg'
-import Image4 from '../assets/villa/4.jpg'
-import Image5 from '../assets/villa/5.jpg'
-import Image6 from '../assets/villa/6.jpg'
-import Image8 from '../assets/villa/8.jpg'
-import Image9 from '../assets/villa/9.jpg'
-import Image10 from '../assets/villa/10.jpg'
+import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
 import '../App.css';
 
 function Palace() {
 
-  // const images = [
-  //   { image: Image1 },
-  //   { image: Image6 },
-  //   { image: Image3 },
-  //   { image: Image4 },
-  //   { image: Image5 },
-  //   { image: Image9 },
-  //   { image: Image8 },
-  //   { image: Image10 },
-  // ];
   return (<>
   <div className='container'>
 
     <h1>The Balmoral Hall</h1>
     <h3>Federal Palace Hotel, VI, Lagos State.</h3>
     <p>200 Seating Capacity </p>
-    <p><i>Ikpati Samuel Christophe</i></p>
+    <div className='icons'>
+      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+    </div>
     
      <div className='amenities'>
       <div >

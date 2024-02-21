@@ -9,7 +9,8 @@
   }
   .logo-img{
     width: 7%;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
 .groupall{
   background-image: url(assets/3.jpg);
@@ -45,6 +46,16 @@
   display: flex;
   margin-left: 5px;
 }
+.icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.icons svg {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+  color: #585858;
+}
+
 .feed{
   margin-top: 20px;
 }.feedback{
