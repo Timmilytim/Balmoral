@@ -5,7 +5,7 @@ import Federal from "./Pages/Federal"
 import Sheraton from "./Pages/Sheraton"
 import Oregun from "./Pages/Oregun"
 import Palace from "./Pages/Palace"
-import NoPage from "./Pages/NoPage"
+// import NoPage from "./Pages/NoPage"
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
@@ -21,7 +21,7 @@ function App() {
             <Route path="/Sheraton" element={<Sheraton/>} />
             <Route path="/Oregun" element={<Oregun/>} />
             <Route path="/Palace" element={<Palace/>} />
-            <Route path='*' element={<NoPage/>} />
+            {/* <Route path='*' element={<NoPage/>} /> */}
 
         </Routes>
     </BrowserRouter>
