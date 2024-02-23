@@ -15,6 +15,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "@mui/icons-material": "^5.15.10",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "emailjs-com": "^3.2.0",
     "icons": "^1.0.0",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navigation from './Navigation'
 import Feedback from './Feedback'
 import {Link} from 'react-router-dom'
@@ -6,8 +6,14 @@ import Villa1 from '../assets/villa/villa1.jpg'
 import Federal from '../assets/federal/Federal1.jpg'
 import sheraton from '../assets/sheraton/sheraton1.jpg'
 import oregun from '../assets/oregun/oregun1.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({duration: 500})
+},[]);
 
   return (
     <>
@@ -18,7 +24,7 @@ const Home = () => {
  <h1 className="text-center feed">Balmoral Convention Center</h1>
   </div>
       {/* Villa Valha Lagos */}
-        <div className="card text-center">
+        <div className="card text-center" data-aos="flip-left">
           <img src={Villa1} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">Villa Valha Lagos</h2>
@@ -29,7 +35,7 @@ const Home = () => {
       </div>
 
       {/* Balmoral Convention Center */}
-      <div className="card text-center">
+      <div className="card text-center" data-aos="flip-right">
           <img src={Federal} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">Balmoral Convention Center</h2>
@@ -40,7 +46,7 @@ const Home = () => {
       </div>
 
       {/* Balmoral Convention Center Sheraton */}
-      <div className="card text-center">
+      <div className="card text-center" data-aos="flip-right">
           <img src={sheraton} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">Balmoral Convention Center</h2>
@@ -51,7 +57,7 @@ const Home = () => {
       </div>
 
       {/* Balmoral Convention Hall Oregun */}
-      <div className="card text-center">
+      <div className="card text-center" data-aos="flip-left">
           <img src={oregun} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">The Balmoral Hall</h2>
@@ -62,7 +68,7 @@ const Home = () => {
       </div>
 
           {/* Balmoral Hall Federal Palace */}
-          <div className="card text-center">
+          <div className="card text-center" data-aos="flip-right">
           <img src={Villa1} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">The Balmoral Hall</h2>

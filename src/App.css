@@ -11,12 +11,12 @@
     text-align: justify;
   }
   .logo-img{
-    width: 7%;
+    width: 10%;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 .groupall{
-  background-image: url(assets/3.jpg);
+  background-color: rgba(137, 43, 226, 0.123);
   padding-bottom: 30px;
 }
 .space{
@@ -30,7 +30,9 @@
   margin: auto;
   box-shadow: 0px 7px 15px rgba(0,0,0,0.5);
   margin-bottom: 50px; 
+  background-image: url(assets/3.jpg);
 }
+
 
 .btn-outline-success{
   color: blueviolet !important;
@@ -71,10 +73,17 @@
   color: #585858;
 }
 
+.feedbackall{
+  background-color: rgba(137, 43, 226, 0.123);
+}
+
 .feed{
-  margin-top: 20px;
-}.feedback{
+  color: rgb(30, 11, 48);
+  font-size: 3em;
+}
+.feedback{
   padding-bottom: 30px;
+  
 }
 
 @media (max-width: 1000px) {
@@ -84,14 +93,21 @@
   }
   .card{
     width: 65%;
-
   }
+  .card-img-top{
+    height: 190px !important;
+}
   .image-container {
     width: 100%;
     margin: auto;
   }
   .amenities{
     flex-direction: column;
+  }
+
+  .feed{
+    color: rgb(30, 11, 48);
+    font-size: 1.5em;
   }
 
 }

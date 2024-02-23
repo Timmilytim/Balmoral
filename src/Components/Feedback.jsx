@@ -36,6 +36,7 @@ const ContactForm = () => {
   };
 
   return (
+  <div className="feedbackall">
     <div className="container feedback">
       <h2 className='feed'>Feedback</h2>
       <form onSubmit={handleSubmit}>
@@ -54,6 +55,7 @@ const ContactForm = () => {
         <button type="submit" className="btn btn-outline-success">Send Message</button>
       </form>
     </div>
+  </div>  
   );
 };
 
