@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
 
 server: {
+  base: '/Balmoral/',
   port : 5000
 }
 
