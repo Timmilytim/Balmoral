@@ -30,7 +30,7 @@ function Sheraton() {
     <p>3,000 sitting capacity</p>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
-      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
+      <a href='https://www.instagram.com/balmoral_cc_ikeja?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
       <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
  

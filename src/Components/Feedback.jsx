@@ -18,8 +18,8 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with your emailjs credentials
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+   
+    emailjs.sendForm("service_3ec065v","template_5x99yyt", e.target, "-4clZnxGXip35uGsP")
       .then((response) => {
         console.log('Email sent successfully:', response);
       })
