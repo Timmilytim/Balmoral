@@ -7,7 +7,7 @@ import Image5 from '../assets/sheraton/7.jpg'
 import Image6 from '../assets/sheraton/6.jpg'
 import Image7 from '../assets/sheraton/5.jpg'
 import Image8 from '../assets/sheraton/8.jpg'
-import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
 
 function Sheraton() {
@@ -31,7 +31,7 @@ function Sheraton() {
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
  
     <div>

@@ -6,7 +6,7 @@ import Image4 from '../assets/federal/4.jpg'
 import Image5 from '../assets/federal/5.jpg'
 import Image6 from '../assets/federal/6.jpg'
 import Image7 from '../assets/federal/7.jpg'
-import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
 
 function Federal() {
@@ -28,8 +28,8 @@ function Federal() {
     <h3>6-8 Ahmadu Bello Way, Federal Palace Hotel, VI, Lagos State.</h3>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
-      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+      <a href='https://www.instagram.com/balmoralevents?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
 
     <div>

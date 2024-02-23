@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
 
 function Palace() {
@@ -13,7 +13,7 @@ function Palace() {
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
     
      <div className='amenities'>

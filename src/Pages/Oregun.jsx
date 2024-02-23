@@ -3,7 +3,7 @@ import Image1 from '../assets/oregun/1.jpg'
 import Image2 from '../assets/oregun/2.jpg'
 import Image3 from '../assets/oregun/3.jpg'
 import Image4 from '../assets/oregun/4.jpg'
-import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
 
 function Oregun() {
@@ -22,8 +22,8 @@ function Oregun() {
     <p>3,000 sitting capacity</p>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
-      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+      <a href='https://www.instagram.com/balmoral_cc_ikeja?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
 
     <div>

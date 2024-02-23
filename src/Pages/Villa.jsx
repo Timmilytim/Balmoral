@@ -7,7 +7,7 @@ import Image6 from '../assets/villa/6.jpg'
 import Image8 from '../assets/villa/8.jpg'
 import Image9 from '../assets/villa/9.jpg'
 import Image10 from '../assets/villa/10.jpg'
-import { FaEnvelope, FaInstagramSquare, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 
 function Villa() {
 
@@ -29,8 +29,8 @@ function Villa() {
     <h3>1 Grillo Street, Ikoyi, Lagos-Nigeria.</h3>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
-      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MTZra2E3bndkeWp2Zw=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaPhone/></a>
+      <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
+      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
     <div>
       <p className='text'>Villa Valhalla was constructed with luxury in mind! From the executive suites to the pool, we planned out the anticipated and emerging needs of our clientele and the means to offer these benefits to our constant streams of guests (corporate, vacationers, events and locals)</p>
