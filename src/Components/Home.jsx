@@ -6,6 +6,7 @@ import Villa1 from '../assets/villa/villa1.jpg'
 import Federal from '../assets/federal/Federal1.jpg'
 import sheraton from '../assets/sheraton/sheraton1.jpg'
 import oregun from '../assets/oregun/oregun1.jpg'
+import Palace from '../assets/palace/palace.jpg';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -21,7 +22,6 @@ const Home = () => {
  <div className='groupall'>
 
   <div className='space'>
- <h1 className="text-center feed">Balmoral Convention Center</h1>
   </div>
       {/* Villa Valha Lagos */}
         <div className="card text-center" data-aos="flip-left">
@@ -69,7 +69,7 @@ const Home = () => {
 
           {/* Balmoral Hall Federal Palace */}
           <div className="card text-center" data-aos="flip-right">
-          <img src={Villa1} className="card-img-top" alt="Villa" />
+          <img src={Palace} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">The Balmoral Hall</h2>
             <h5 className="card-text">Federal Palace Hotel, Victoria Island, Lago State.</h5>

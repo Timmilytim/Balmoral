@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react';
 import Image1 from '../assets/villa/1.jpg'
 import Image3 from '../assets/villa/3.jpg'
 import Image4 from '../assets/villa/4.jpg'
@@ -8,8 +8,15 @@ import Image8 from '../assets/villa/8.jpg'
 import Image9 from '../assets/villa/9.jpg'
 import Image10 from '../assets/villa/10.jpg'
 import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Navigation from '../Components/Navigation'
 
 function Villa() {
+
+  useEffect(() => {
+    AOS.init({duration: 500})
+},[]);
 
   const images = [
     { image: Image1 },
@@ -23,7 +30,8 @@ function Villa() {
   ];
   return (<>
 
-<div className='container'>
+<Navigation/>
+<div className='container' data-aos="fade-out">
 
     <h1>Villa Valha Lagos</h1>
     <h3>1 Grillo Street, Ikoyi, Lagos-Nigeria.</h3>
@@ -101,11 +109,11 @@ Balmoral Convention Center. Thank You.</i></small>
       </div>
     </div>
 
-    <h2 className='text-center'>Gallery</h2>
+    <h2 className='text-center feed'>Gallery</h2>
     <div className="image-container text-center">
   {images.map((data, index) => (
     <div key={index}>
-      <img src={data.image} alt={`Image ${index + 1}`} />
+      <img src={data.image} alt={`Image ${index + 1}`} data-aos="flip-right"/>
     </div>
   ))}
 </div>

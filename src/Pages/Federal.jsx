@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react';
 import Image1 from '../assets/federal/1.jpg'
 import Image2 from '../assets/federal/2.jpg'
 import Image3 from '../assets/federal/3.jpg'
@@ -8,8 +8,15 @@ import Image6 from '../assets/federal/6.jpg'
 import Image7 from '../assets/federal/7.jpg'
 import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Navigation from '../Components/Navigation'
 
 function Federal() {
+
+  useEffect(() => {
+    AOS.init({duration: 500})
+},[]);
 
   const images = [
     { image: Image1 },
@@ -22,7 +29,8 @@ function Federal() {
 
   ];
   return (<>
-  <div className='container'>
+  <Navigation/>
+  <div className='container' data-aos="fade-out">
 
     <h1>Balmoral Convention Center</h1>
     <h3>6-8 Ahmadu Bello Way, Federal Palace Hotel, VI, Lagos State.</h3>
@@ -32,7 +40,7 @@ function Federal() {
       <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
     </div>
 
-    <div>
+    <div data-aos="fade-out">
       <p className='text'>Nestled in the heart of Victoria Island, our Balmoral Convention Centre is an epitome of sophistication. With its expansive spaces and state-of-the-art facilities, it's an ideal choice for large-scale conferences, exhibitions, and grand celebrations. The iconic skyline serves as a backdrop, adding an extra touch of grandeur to your event.
       The Balmoral Convention Center, Federal Palace Hotel, Victoria Island is located on the premises of the Federal Palace Hotel, a 5 star luxury hotel that offers state of the art facility and comforts of unimaginable proportions.
       Strategically located at the heart of Victoria Island, the Balmoral Convention Centre is the preferred venue for gatherings of all kinds in the region with proximity to both Island and mainland audiences.
@@ -83,11 +91,11 @@ Balmoral Convention Center. Thank You.</i></small>
 
 
 
-    <h2 className='text-center'>Gallery</h2>
+    <h2 className='text-center feed'>Gallery</h2>
     <div className="image-container text-center">
   {images.map((data, index) => (
     <div key={index}>
-      <img src={data.image} alt={`Image ${index + 1}`} />
+      <img src={data.image} alt={`Image ${index + 1}`} data-aos="flip-right" />
     </div>
   ))}
 </div>

@@ -1,12 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react';
 import Image1 from '../assets/oregun/1.jpg'
 import Image2 from '../assets/oregun/2.jpg'
 import Image3 from '../assets/oregun/3.jpg'
 import Image4 from '../assets/oregun/4.jpg'
 import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Navigation from '../Components/Navigation'
 
 function Oregun() {
+
+  useEffect(() => {
+    AOS.init({duration: 500})
+},[]);
 
   const images = [
     { image: Image1 },
@@ -15,7 +22,8 @@ function Oregun() {
     { image: Image2 }
   ];
   return (<>
-  <div className='container'>
+  <Navigation/>
+  <div className='container' data-aos="fade-out">
 
     <h1>The Balmoral Hall</h1>
     <h3>98, Kudirat Abiola Way, Oregun, ikeja, Lagos State.</h3>
@@ -79,11 +87,11 @@ function Oregun() {
 
 
 
-    <h2 className='text-center'>Gallery</h2>
+    <h2 className='text-center feed'>Gallery</h2>
     <div className="image-container text-center">
   {images.map((data, index) => (
     <div key={index}>
-      <img src={data.image} alt={`Image ${index + 1}`} />
+      <img src={data.image} alt={`Image ${index + 1}`} data-aos="flip-right" />
     </div>
   ))}
 </div>

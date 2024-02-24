@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react';
 import Image1 from '../assets/sheraton/1.jpg'
 import Image2 from '../assets/sheraton/2.jpg'
 import Image3 from '../assets/sheraton/3.jpg'
@@ -9,8 +9,15 @@ import Image7 from '../assets/sheraton/5.jpg'
 import Image8 from '../assets/sheraton/8.jpg'
 import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import '../App.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Navigation from '../Components/Navigation'
 
 function Sheraton() {
+
+  useEffect(() => {
+    AOS.init({duration: 500})
+},[]);
 
   const images = [
     { image: Image1 },
@@ -23,7 +30,8 @@ function Sheraton() {
     { image: Image8 },
   ];
   return (<>
-  <div className='container'>
+  <Navigation/>
+  <div className='container' data-aos="fade-out">
 
     <h1>Balmoral Convention Center</h1>
     <h3>30 Mobolaji Bank Anthony way, Sheraton Lagos Hotel, ikeja. Lagos State</h3>
@@ -88,11 +96,11 @@ Balmoral Convention Center. Thank You.</i></small>
 
 
 
-    <h2 className='text-center'>Gallery</h2>
+    <h2 className='text-center feed'>Gallery</h2>
     <div className="image-container text-center">
   {images.map((data, index) => (
     <div key={index}>
-      <img src={data.image} alt={`Image ${index + 1}`} />
+      <img src={data.image} alt={`Image ${index + 1}`} data-aos="flip-right" />
     </div>
   ))}
 </div>
