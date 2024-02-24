@@ -48,7 +48,7 @@ function Federal() {
     </div>
     <div className='amenities'>
       <div >
-        <h4>AMENITIES</h4>
+        <h4 className='feed'>AMENITIES</h4>
           <ul>
             <li>8 hours for your event.</li>
             <li>1 hour pre-event cooling.</li>
@@ -64,20 +64,20 @@ function Federal() {
           </ul>
       </div>
       <div>
-        <h4>BENEFITS</h4>
+        <h4 className='feed'>BENEFITS</h4>
           <ul>
             <li>A complimentary room for your event.</li>
             <li>Discounted Rate for your hotel bookings, using
   Balmoral Convention Center as your code.</li>
           </ul>
-        <h4>RATE</h4>
+        <h4 className='feed'>RATE</h4>
         <p>8 MILLION NAIRA (EXCLUSIVE OF TAXES)</p>
         <p>10 MILLION (INCLUSIVE OF TAXES FOR DECEMBER 2024 ONLY)</p>
       </div>
     </div>
 
 <div className='capacity'>
-      <h4>CAPACITY</h4>
+      <h4 className='feed'>CAPACITY</h4>
     <ul>
       <li>30m by 70m = 2100sqm</li>
       <li>1700 Banquet sitting</li>

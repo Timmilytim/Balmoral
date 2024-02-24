@@ -49,7 +49,7 @@ function Sheraton() {
     </div>
     <div className='amenities'>
       <div >
-        <h4>AMENITIES</h4>
+        <h4 className='feed'>AMENITIES</h4>
           <ul>
             <li>8 hours for your event.</li>
             <li>1 hour pre-event cooling.</li>
@@ -70,9 +70,9 @@ function Sheraton() {
           </ul>
       </div>
       <div>
-        <h4>BENEFITS</h4>
+        <h4 className='feed'>BENEFITS</h4>
          <p>DISCOUNTED RATE FOR YOUR HOTEL BOOKING AT  SHERATON LAGOS HOTEL DURING YOUR EVENT PERIOD.</p>
-        <h4>RATE</h4>
+        <h4 className='feed'>RATE</h4>
         <p>The Venue Price is 6 Million</p>
         <p>The Venue with light and sound is 8 Million</p>
         <p><i>All excluding VAT, Tax and client refundable of 200,000</i></p>
@@ -81,7 +81,7 @@ function Sheraton() {
     </div>
 
 <div className='capacity'>
-      <h4>CAPACITY</h4>
+      <h4 className='feed'>CAPACITY</h4>
     <ul>
       <li>Mainfloor: 1500sqm(30mx50m)</li>
       <li>Mezzaninefloor: 450sqm(30mx15m)</li>

@@ -39,11 +39,11 @@ function Oregun() {
     </div>
     <div className='amenities'>
       <div >
-        <h4>AMENITIES/ BENEFITS</h4>
+        <h4 className='feed'>AMENITIES/ BENEFITS</h4>
           <ul>
             <li>Excellent Customer Service and Relationship.</li>
             <li>20m by 60m Marquee Tent.</li>
-            <li>2 Car Parking Space (indoor & outdoor.</li>
+            <li>2 Car Parking Space (indoor & outdoor.)</li>
             <li>Changing Room.</li>
             <li>Air Conditioning.</li>
             <li>Serene Toilets.</li>
@@ -58,10 +58,10 @@ function Oregun() {
           </ul>
       </div>
       <div>
-        <h4>RATE</h4>
+        <h4 className='feed'>RATE</h4>
         <p>The Venue Price is 3 Million</p>
 
-        <h4>CAPACITY</h4>
+        <h4 className='feed'>CAPACITY</h4>
           <ul>
             <li>Banquet Seating: 800</li>
             <li>Theater Seating: 1,500</li>
@@ -74,7 +74,7 @@ function Oregun() {
     </div>
 
 <div className='capacity'>
-      <h4>CAPACITY</h4>
+      <h4 className='feed'>CAPACITY</h4>
     <ul>
       <li>30m by 70m = 2100sqm</li>
       <li>1700 Banquet sitting</li>

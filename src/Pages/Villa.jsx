@@ -51,7 +51,7 @@ function Villa() {
 
     <div className='amenities'>
       <div >
-        <h4>RATES</h4>
+        <h4 className='feed'>RATES</h4>
         <ul>
   <li>
     Day Booking - Weekdays (Monday - Thursday) 12 noon - 8 pm:

@@ -45,7 +45,7 @@ function Palace() {
     
      <div className='amenities'>
       <div >
-        <h4>AMENITIES/ BENEFITS</h4>
+        <h4 className='feed'>AMENITIES/ BENEFITS</h4>
           <ul>
             <li>8 hours for your event.</li>
             <li>1 hour pre-event cooling.</li>
@@ -62,10 +62,10 @@ function Palace() {
           </ul>
       </div>
       <div>
-        <h4>RATE</h4>
+        <h4 className='feed'>RATE</h4>
         <p>1.5 MILLION (EXCLUSIVE OF TAXES)</p>
 
-        <h4>CAPACITY</h4>
+        <h4 className='feed'>CAPACITY</h4>
           <ul>
             <li>Banquet Seating: 200</li>
             <li>Theater Seating: 300</li>
