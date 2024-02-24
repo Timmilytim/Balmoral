@@ -34,7 +34,7 @@ function Palace() {
   <Navigation/>
   <div className='container' data-aos="fade-out">
 
-    <h1>The Balmoral Hall</h1>
+    <h1 className='bold'>The Balmoral Hall</h1>
     <h3>Federal Palace Hotel, VI, Lagos State.</h3>
     <p>200 Seating Capacity </p>
     <div className='icons'>

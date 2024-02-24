@@ -32,7 +32,7 @@ function Federal() {
   <Navigation/>
   <div className='container' data-aos="fade-out">
 
-    <h1>Balmoral Convention Center</h1>
+    <h1 className='bold'>Balmoral Convention Center</h1>
     <h3>6-8 Ahmadu Bello Way, Federal Palace Hotel, VI, Lagos State.</h3>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  

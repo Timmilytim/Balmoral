@@ -25,7 +25,7 @@ function Oregun() {
   <Navigation/>
   <div className='container' data-aos="fade-out">
 
-    <h1>The Balmoral Hall</h1>
+    <h1 className='bold'>The Balmoral Hall</h1>
     <h3>98, Kudirat Abiola Way, Oregun, ikeja, Lagos State.</h3>
     <p>3,000 sitting capacity</p>
     <div className='icons'>

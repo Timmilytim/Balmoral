@@ -33,7 +33,7 @@ function Sheraton() {
   <Navigation/>
   <div className='container' data-aos="fade-out">
 
-    <h1>Balmoral Convention Center</h1>
+    <h1 className='bold'>Balmoral Convention Center</h1>
     <h3>30 Mobolaji Bank Anthony way, Sheraton Lagos Hotel, ikeja. Lagos State</h3>
     <p>3,000 sitting capacity</p>
     <div className='icons'>

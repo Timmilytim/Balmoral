@@ -33,7 +33,7 @@ function Villa() {
 <Navigation/>
 <div className='container' data-aos="fade-out">
 
-    <h1>Villa Valha Lagos</h1>
+    <h1 className='bold'>Villa Valha Lagos</h1>
     <h3>1 Grillo Street, Ikoyi, Lagos-Nigeria.</h3>
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
