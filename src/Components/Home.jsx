@@ -72,7 +72,7 @@ const Home = () => {
           <img src={Palace} className="card-img-top" alt="Villa" />
           <div class="card-body">
             <h2 className="card-title">The Balmoral Hall</h2>
-            <h5 className="card-text">Federal Palace Hotel, Victoria Island, Lago State.</h5>
+            <h5 className="card-text">Federal Palace Hotel, Victoria Island, Lagos State.</h5>
             <p>200 Sitting Capacity Hall</p>
             <Link to="/palace" className="btn btn-outline-success">See More</Link>
           </div>
