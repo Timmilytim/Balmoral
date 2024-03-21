@@ -6,6 +6,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    location: '',
     message: '',
   });
 
@@ -32,6 +33,7 @@ const ContactForm = () => {
     setFormData({
       name: '',
       email: '',
+      location:'',
       message: '',
     });
   };
@@ -50,7 +52,20 @@ const ContactForm = () => {
           <input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">Message</label>
+        <label htmlFor="name" className="form-label">Location</label>
+          <select required className="form-control" name="location" id="location" value={formData.location} onChange={handleChange}>
+              <option value="">Select a location</option>
+              <option value="Villa Valha Lagos (Ikoyi, Lagos State)">Villa Valha Lagos (Ikoyi, Lagos State)</option>
+              <option value="Balmoral Convention Center(Federal Palace Hotel, Victoria Island, Lagos State)">Balmoral Convention Center(Federal Palace Hotel, Victoria Island, Lagos State)</option>
+              <option value="Balmoral Convention Center (Sheraton Hotel Ikeja, Lagos State)">Balmoral Convention Center (Sheraton Hotel Ikeja, Lagos State)</option>
+              <option value="The Balmoral Hall (Oregun Ikeja, Lagos State)">The Balmoral Hall (Oregun Ikeja, Lagos State)</option>
+              <option value="The Balmoral Hall (Federal Palace Hotel, Victoria Island, Lagos State)">The Balmoral Hall (Federal Palace Hotel, Victoria Island, Lagos State)</option>
+          </select>
+        </div>
+
+
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">Message</label> <br/>
           <textarea className="form-control" id="message" name="message" value={formData.message} onChange={handleChange} required />
         </div>
         <button type="submit" className="btn btn-outline-success">Send Message</button>

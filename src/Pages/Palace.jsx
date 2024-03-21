@@ -36,7 +36,7 @@ function Palace() {
 
     <h1 className='bold'>The Balmoral Hall</h1>
     <h3>Federal Palace Hotel, VI, Lagos State.</h3>
-    <p>200 Seating Capacity </p>
+    <p>200 Seating Capacity </p>  
     <div className='icons'>
       <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/balmoralevents?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
