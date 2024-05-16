@@ -11,6 +11,7 @@ import '../App.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Navigation from '../Components/Navigation'
+import Feedback from '../Components/Feedback';
 
 function Palace() {
 
@@ -38,9 +39,9 @@ function Palace() {
     <h3>Federal Palace Hotel, VI, Lagos State.</h3>
     <p>200 Seating Capacity </p>  
     <div className='icons'>
-      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+    <a className='mail' href='mailto:Nathanael@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/balmoralevents?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
+      <a href=' https://wa.me/+2348094151640'><FaWhatsapp/></a>
     </div>
     
      <div className='amenities'>
@@ -89,6 +90,8 @@ function Palace() {
 
 
 </div>
+
+<Feedback/>
     </>
   )
 }

@@ -1,4 +1,3 @@
-import './App.css'
 import Home from "./Components/Home"
 import Villa from "./Pages/Villa"
 import Federal from "./Pages/Federal"

@@ -12,6 +12,7 @@ import '../App.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Navigation from '../Components/Navigation'
+import Feedback from '../Components/Feedback';
 
 function Sheraton() {
 
@@ -37,9 +38,9 @@ function Sheraton() {
     <h3>30 Mobolaji Bank Anthony way, Sheraton Lagos Hotel, ikeja. Lagos State</h3>
     <p>3,000 sitting capacity</p>
     <div className='icons'>
-      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+    <a className='mail' href='mailto:Nathanael@balmoral.com.ng'><FaEnvelope/></a>   
       <a href='https://www.instagram.com/balmoral_cc_ikeja?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
+      <a href=' https://wa.me/+2348094151640'><FaWhatsapp/></a>
     </div>
  
     <div>
@@ -105,8 +106,8 @@ Balmoral Convention Center. Thank You.</i></small>
   ))}
 </div>
 
-
 </div>
+<Feedback/>
     </>
   )
 }

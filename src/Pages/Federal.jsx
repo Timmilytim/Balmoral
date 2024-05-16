@@ -11,6 +11,7 @@ import '../App.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Navigation from '../Components/Navigation'
+import Feedback from '../Components/Feedback';
 
 function Federal() {
 
@@ -35,9 +36,9 @@ function Federal() {
     <h1 className='bold'>Balmoral Convention Center</h1>
     <h3>6-8 Ahmadu Bello Way, Federal Palace Hotel, VI, Lagos State.</h3>
     <div className='icons'>
-      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+    <a className='mail' href='mailto:Nathanael@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/balmoralevents?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
+      <a href=' https://wa.me/+2348094151640'><FaWhatsapp/></a>
     </div>
 
     <div data-aos="fade-out">
@@ -100,7 +101,7 @@ Balmoral Convention Center. Thank You.</i></small>
   ))}
 </div>
 
-
+<Feedback/>
 </div>
     </>
   )

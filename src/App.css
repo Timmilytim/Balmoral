@@ -8,6 +8,13 @@
     background-color: rgba(137, 43, 226, 0.123);
   }
 
+  .ven{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
   .text{
     text-align: justify;
   }
@@ -74,6 +81,7 @@
 }
 
 .feedbackall{
+  padding-top: 40px;
   background-color: rgba(137, 43, 226, 0.123);
 }
 

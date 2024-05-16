@@ -11,6 +11,7 @@ import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Navigation from '../Components/Navigation'
+import Feedback from '../Components/Feedback';
 
 function Villa() {
 
@@ -36,9 +37,9 @@ function Villa() {
     <h1 className='bold'>Villa Valha Lagos</h1>
     <h3>1 Grillo Street, Ikoyi, Lagos-Nigeria.</h3>
     <div className='icons'>
-      <a className='mail' href='mailto:Samueli@balmoral.com.ng'><FaEnvelope/></a>  
+      <a className='mail' href='mailto:Nathanael@balmoral.com.ng'><FaEnvelope/></a>  
       <a href='https://www.instagram.com/thevillavalhallalagos?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
-      <a href=' https://wa.me/+2348034423234'><FaWhatsapp/></a>
+      <a href=' https://wa.me/+2348094151640'><FaWhatsapp/></a>
     </div>
     <div>
       <p className='text'>Villa Valhalla was constructed with luxury in mind! From the executive suites to the pool, we planned out the anticipated and emerging needs of our clientele and the means to offer these benefits to our constant streams of guests (corporate, vacationers, events and locals)</p>
@@ -116,9 +117,11 @@ Balmoral Convention Center. Thank You.</i></small>
       <img src={data.image} alt={`Image ${index + 1}`} data-aos="flip-right"/>
     </div>
   ))}
+
 </div>
-    
+
 </div>
+<Feedback/>
     </>
   )
 }

@@ -41,7 +41,7 @@ const ContactForm = () => {
   return (
   <div className="feedbackall">
     <div className="container feedback">
-      <h2 className='feed'>Feedback</h2>
+      <h2 className='feed'>Enquires </h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
@@ -52,9 +52,9 @@ const ContactForm = () => {
           <input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required />
         </div>
         <div className="mb-3">
-        <label htmlFor="name" className="form-label">Location</label>
+        <label htmlFor="name" className="form-label">Venue</label>
           <select required className="form-control" name="location" id="location" value={formData.location} onChange={handleChange}>
-              <option value="">Select a location</option>
+              <option value="">Select a Venue</option>
               <option value="Villa Valha Lagos (Ikoyi, Lagos State)">Villa Valha Lagos (Ikoyi, Lagos State)</option>
               <option value="Balmoral Convention Center(Federal Palace Hotel, Victoria Island, Lagos State)">Balmoral Convention Center(Federal Palace Hotel, Victoria Island, Lagos State)</option>
               <option value="Balmoral Convention Center (Sheraton Hotel Ikeja, Lagos State)">Balmoral Convention Center (Sheraton Hotel Ikeja, Lagos State)</option>

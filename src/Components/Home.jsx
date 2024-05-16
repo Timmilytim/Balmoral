@@ -19,10 +19,14 @@ const Home = () => {
   return (
     <>
 <Navigation />
+ 
  <div className='groupall'>
 
   <div className='space'>
+    <Feedback/>
   </div>
+
+      <h2 className='ven text-center'>Venues</h2>
       {/* Villa Valha Lagos */}
         <div className="card text-center" data-aos="flip-left">
           <img src={Villa1} className="card-img-top" alt="Villa" />
@@ -79,7 +83,7 @@ const Home = () => {
       </div>
 
  </div>
- <Feedback/>
+
 
      
     </>
