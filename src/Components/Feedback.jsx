@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FaEnvelope, FaInstagramSquare, FaWhatsapp} from 'react-icons/fa';
 
 const ContactForm = () => {
   
@@ -22,7 +23,7 @@ const ContactForm = () => {
     e.preventDefault();
 
    
-    emailjs.sendForm("service_3ec065v","template_5x99yyt", e.target, "-4clZnxGXip35uGsP")
+    emailjs.sendForm("service_n1x2fja","template_1spvkie", e.target, "fRQBicXvRaHw-cPCn")
       .then((response) => {
         console.log('Email sent successfully:', response);
       })
@@ -76,6 +77,13 @@ const ContactForm = () => {
         </div>
         <button type="submit" className="btn btn-outline-success">Send Message</button>
       </form>
+
+        {/* FORM ICONS */}
+        <div className='icons mt-4'>
+          <a href='https://www.instagram.com/balmoralevents?igsh=MzRlODBiNWFlZA=='><FaInstagramSquare/></a>
+          <a href=' https://wa.me/+2348094151640'><FaWhatsapp/></a>
+        </div>
+
     </div>
   </div>  
   );
